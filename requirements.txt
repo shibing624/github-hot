@@ -1,3 +1,2 @@
 pyquery
-requests
 schedule
