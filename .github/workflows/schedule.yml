@@ -32,10 +32,10 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: push to origin master
       run: |
-        echo start push
+        echo "start push"
         git config --global user.name "shibing624"
         git config --global user.email "shibing624@126.com"
 
-        git add -A
+        git add markdown/*.md
         git commit -m $(date '+%Y-%m-%d')
         git push
