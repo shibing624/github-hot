@@ -5,8 +5,10 @@ name: Daily Github-Trending
 
 on:
   workflow_dispatch: # Manually running a workflow
+
+on:
   schedule:
-    - cron: "0 10 * * *"
+    - cron: "27 10 * * *"
 
 jobs:
   build:
