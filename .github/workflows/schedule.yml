@@ -4,10 +4,10 @@
 name: Daily Github-Trending
 
 on:
-  workflow_dispatch: # Manually running a workflow
+#   workflow_dispatch: # Manually running a workflow
 
   schedule:
-    - cron: "30 10 * * *"
+    - cron: "0 11 * * *"
 
 jobs:
   build:
