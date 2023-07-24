@@ -1,6 +1,11 @@
 # github-hot
 Tracking the hot Github repos and update daily
 
+
+1. 基于Github [Actions](https://github.com/shibing624/github-hot/blob/main/.github/workflows/schedule.yml)每天自动抓取热门项目
+2. 支持项目列表markdown格式输出，自动同步到github
+3. 支持自定义排序，选取topk热点兴趣项目
+
 ## Usage
 ```shell
 $ git clone https://github.com/shibing624/github-hot.git
