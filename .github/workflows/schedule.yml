@@ -37,7 +37,7 @@ jobs:
         git config --global user.name "shibing624"
         git config --global user.email "shibing624@126.com"
         git pull --rebase
-
         git add markdowns/*.md
         git commit -m $(date '+%Y-%m-%d')
+        git pull
         git push
