@@ -6,7 +6,7 @@ Tracking the hot Github repos and update daily
 3. Support custom sorting, select topk hot interest repos
 
 ## Usage
-```zsh
+```bash
 git clone https://github.com/shibing624/github-hot.git
 cd github-hot
 pip install -r requirements.txt
