@@ -7,10 +7,10 @@ Tracking the hot Github repos and update daily
 
 ## Usage
 ```zsh
-$ git clone https://github.com/shibing624/github-hot.git
-$ cd github-hot
-$ pip install -r requirements.txt
-$ python crawler.py
+git clone https://github.com/shibing624/github-hot.git
+cd github-hot
+pip install -r requirements.txt
+python crawler.py
 ```
 
 ### Result
